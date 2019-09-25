@@ -16,5 +16,7 @@ if counter = 0
   return "X" 
   elsif counter = 1 
   return "O"
+else 
+  return "X"
 end 
 end 
