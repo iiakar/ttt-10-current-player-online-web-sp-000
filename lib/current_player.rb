@@ -18,7 +18,8 @@ end
 def current_player(counter)
 if counter == 0
   return "X" 
-  counter.even?
+  elsif 
+  counter % 2 != 0
     return "O"
   else 
     return "X"
