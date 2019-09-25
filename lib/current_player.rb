@@ -10,8 +10,8 @@ end
 
 def current_player(counter)
  if counter % 2 == 0
-   return "It's Xs turn"
-  else 
-    return "It's Ys turn"
+   return "X"
+  else
+    return "Y"
   end 
 end 
