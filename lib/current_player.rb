@@ -15,8 +15,7 @@ if counter == 0 || 2 || 4 || 6 || 8
 elsif  
   counter == 1 || 3 || 5 || 7 || 9
     return "O"
-  else 
-    return "X"
+  
   end 
 
 end 
