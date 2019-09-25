@@ -9,11 +9,9 @@ def turn_count(turn)
 end
 
 def current_player(counter)
-counter.each do 
-if counter == 0 
+if counter.odd? 
   return "X" 
-elsif counter == 1
+elsif counter.even?
 return "O"
-end 
 end
 end 
