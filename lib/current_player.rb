@@ -10,6 +10,7 @@ end
 
 
 def current_player(counter)
+  counter.each do 
 if counter == 0 && counter % 2 == 0
   return "X" 
   # counter.even?
@@ -17,6 +18,7 @@ if counter == 0 && counter % 2 == 0
   else 
     return "X"
   end 
+end 
 end 
 
 
