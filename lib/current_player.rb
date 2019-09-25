@@ -17,5 +17,5 @@ if counter == 0
   else 
     return "X"
   end 
-end 
+
 end 
