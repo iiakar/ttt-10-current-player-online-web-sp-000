@@ -8,16 +8,8 @@ def turn_count(turn)
  counter
 end
 
-
-
-
-
-
-
-
-
 def current_player(counter)
-if counter == 0
+if counter == 0 && counter % 2 == 0
   return "X" 
   counter.even?
     return "O"
