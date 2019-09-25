@@ -13,6 +13,8 @@ def current_player(counter)
   counter.each_with_index do 
 if counter == 0 
   return "X" 
+  elsif counter % 2 == 0
+  return "X"
   # counter.even?
   #   return "O"
   else 
