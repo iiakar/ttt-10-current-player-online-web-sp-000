@@ -14,7 +14,7 @@ end
 def current_player(counter)
 if counter = 0 || counter % 2 == 0
   return "X" 
-  elsif counter.odd?
+  elsif counter = 1 || counter % 2 != 0
   return "O"
 end 
 end 
