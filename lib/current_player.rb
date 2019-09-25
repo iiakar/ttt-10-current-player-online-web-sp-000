@@ -8,7 +8,7 @@ def turn_count(turn)
  counter
 end
 
-def current_player(player)
+def current_player(counter)
  if counter % 2 == 0
    return "It's Xs turn"
   else 
