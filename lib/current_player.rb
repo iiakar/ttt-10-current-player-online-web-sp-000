@@ -14,7 +14,7 @@ if counter == 0
   return "X" 
   counter.even?
     return "O"
-  counter.odd?
+  else 
     return "X"
   end 
 
