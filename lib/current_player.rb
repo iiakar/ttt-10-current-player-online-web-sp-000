@@ -9,17 +9,17 @@ def turn_count(turn)
 end
 
 
-def current_player(counter)
-  counter == 0 
-  if 
-  return "X" 
-  # counter.even?
-  #   return "O"
-  else 
-    return "O"
-  end 
-end 
-end 
+# def current_player(counter)
+#   counter == 0 
+#   if 
+#   return "X" 
+#   # counter.even?
+#   #   return "O"
+#   else 
+#     return "O"
+#   end 
+# end 
+# end 
 
 
 
