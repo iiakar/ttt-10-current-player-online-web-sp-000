@@ -7,7 +7,7 @@ def turn_count(turn)
   end 
  counter
 end
-
+counter 
 def current_player(counter)
  if counter.odd? 
    return "X"
