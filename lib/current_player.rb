@@ -9,10 +9,10 @@ def turn_count(turn)
 end
 
 
-# def current_player(counter)
-# if counter == 0 
-#   return "X"
-#   elsif counter % 
-#     return "Y"
-#   end 
-# end 
+def current_player(counter)
+if counter == 0 
+  return "X"
+  elsif counter % 
+    return "Y"
+  end 
+end 
