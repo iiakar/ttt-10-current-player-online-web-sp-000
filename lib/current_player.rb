@@ -9,14 +9,8 @@ def turn_count(turn)
 end
 
 
-
-
-
-
-
-
 def current_player(counter)
-if counter == 0
+counter == 0
   return "X" 
 end 
 end 
