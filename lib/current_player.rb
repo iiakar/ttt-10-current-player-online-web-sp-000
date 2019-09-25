@@ -9,6 +9,7 @@ def turn_count(turn)
 end
 
 def current_player(counter)
+counter.each do 
 if counter == 0 
   return "X" 
 elsif counter == 1
