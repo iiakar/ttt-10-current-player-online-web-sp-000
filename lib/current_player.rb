@@ -12,7 +12,7 @@ end
 #Y= 1,3,5,7,9
 
 def current_player(counter)
-if counter = 0 && counter % 2 == 0
+if counter = 0 || counter % 2 == 0
   return "X" 
   elsif counter % 2 != 0
   return "O"
