@@ -10,7 +10,7 @@ end
 
 
 def current_player(counter)
-counter == 0
+if counter = 0
   return "X" 
 end 
 end 
