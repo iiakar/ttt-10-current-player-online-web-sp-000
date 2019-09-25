@@ -19,3 +19,4 @@ def current_player(counter)
 if counter == 0
   return "X" 
 end 
+end 
