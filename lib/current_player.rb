@@ -13,7 +13,7 @@ def current_player(counter)
 if counter == 0 
   return "X"
   counter.even?
-    return "Y"
+    return "O"
   else 
     return "X"
   end 
