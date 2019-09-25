@@ -12,6 +12,7 @@ end
 def current_player(counter)
 if counter == 0 || 3 || 5 || 7
   return "X" 
+elsif  
   counter.even?
     return "O"
   else 
