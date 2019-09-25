@@ -10,12 +10,12 @@ end
 
 
 def current_player(counter)
- counter.odd?
+if counter == 0
   return "X" 
   counter.even?
     return "O"
   else 
-    #return "X"
+    return "X"
   end 
 
 end 
