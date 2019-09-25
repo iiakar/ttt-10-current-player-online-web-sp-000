@@ -9,3 +9,4 @@ def turn_count(turn)
 end
 
 def current_player(player)
+end 
