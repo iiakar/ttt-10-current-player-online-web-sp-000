@@ -16,7 +16,7 @@ if counter == 0 && counter % 2 == 0
   # counter.even?
   #   return "O"
   else 
-    return "X"
+    return "O"
   end 
 end 
 end 
