@@ -12,7 +12,10 @@ end
 def current_player(counter)
 if counter == 0 
   return "X"
-  elsif counter % 
+  elsif counter.even?
     return "Y"
+  else 
+    return "X"
   end 
+end 
 end 
