@@ -9,4 +9,9 @@ def turn_count(turn)
 end
 
 def current_player(player)
+ if counter % 2 == 0
+   return "It's Xs turn"
+  else 
+    return "It's Ys turn"
+  end 
 end 
