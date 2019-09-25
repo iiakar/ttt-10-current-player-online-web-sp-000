@@ -26,6 +26,6 @@ if counter == 0
   return "X" 
   counter.even?
     return "O"
-  else 
-    return "X"
+  # else 
+  #   return "X"
   end 
