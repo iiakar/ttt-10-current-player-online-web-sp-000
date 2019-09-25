@@ -9,41 +9,19 @@ def turn_count(turn)
 end
 
 
+
+
+
+
+
+
+
 def current_player(counter)
-  counter.each_with_index do 
-if counter == 0 
+if counter == 0
   return "X" 
-  elsif counter % 2 == 0
-  return "X"
-  # counter.even?
-  #   return "O"
-  else 
+  counter.even?
     return "O"
+  else 
+    return "X"
   end 
 end 
-end 
-
-
-
-
-# def current_player(counter)
-# if counter == 0 || 2 || 4 || 6 || 8
-#   return "X" 
-# elsif  
-#   counter == 1 || 3 || 5 || 7 || 9
-#     return "O"
-  
-#   end 
-
-# end 
-
-
-# def current_player(counter)
-# if counter == 0
-#   return "X" 
-#   counter.even?
-#     return "O"
-#   else 
-#     return "X"
-#   end 
-# end 
