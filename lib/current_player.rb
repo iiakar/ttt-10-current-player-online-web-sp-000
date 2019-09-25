@@ -15,4 +15,5 @@ if counter == 0
 elsif counter == 1
 return "O"
 end 
+end
 end 
