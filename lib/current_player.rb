@@ -8,9 +8,13 @@ def turn_count(turn)
  counter
 end
 
+#X= 0,2,4,6,8 
+#Y= 1,3,5,7,9
 
 def current_player(counter)
 if counter = 0
   return "X" 
+  elsif counter % 2 != 0
+  return "O"
 end 
 end 
