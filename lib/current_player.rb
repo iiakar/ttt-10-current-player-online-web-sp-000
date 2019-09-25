@@ -8,40 +8,11 @@ def turn_count(board)
  counter
 end
 
-
-# def current_player(counter)
-#   counter == 0 
-#   if 
-#   return "X" 
-#   # counter.even?
-#   #   return "O"
-#   else 
-#     return "O"
-#   end 
-# end 
-# end 
-
-
-
-
-# def current_player(counter)
-# if counter == 0 || 2 || 4 || 6 || 8
-#   return "X" 
-# elsif  
-#   counter == 1 || 3 || 5 || 7 || 9
-#     return "O"
-  
-#   end 
-
-# end 
-
-
-# def current_player(counter)
-# if counter == 0
-#   return "X" 
-#   counter.even?
-#     return "O"
-#   else 
-#     return "X"
-#   end 
-# end 
+def current_player(board)
+  turns = turn_count(board)
+  if turns % 2 == 0
+    return "X"
+  else 
+    return "O"
+  end 
+end 
